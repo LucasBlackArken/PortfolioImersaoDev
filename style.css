@@ -1,0 +1,89 @@
+('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+body {
+  background: url("https://img.elo7.com.br/product/zoom/3AAE8F3/papel-de-parede-zara-com-fundo-branco-e-detalhes-em-amarelo-decoracao-quarto-de-casal.jpg");
+font-family: 'Comfortaa', cursive;
+}
+
+.container {
+ background: linear-gradient(to right, #000000 40%, #ffffff 120%);
+ color: white;
+ margin: 64 px;
+ border-radius: 20px;
+ box-shadow: 6px 6px 6px #0E1D2F;
+ padding: 64px;
+}
+
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0,25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400; 
+  font-size: 24px;
+}
+.icons {
+  align-self: flex-start;
+  margin-top: 150px;
+  margin-left: -305px;
+}
+
+.icons img {
+  width: 50px;
+  padding: 5px;
+}
+
+.icons a:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+ 
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  background: linear-gradient(to right, #000000 40%, #ffffff 120%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0,42);
+ border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-itens {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-itens a {
+  color: white;
+  text-decoration: none;
+}
